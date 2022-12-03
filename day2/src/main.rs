@@ -84,13 +84,13 @@ impl FromStr for Input {
                     "A" => Some(Choice::Rock),
                     "B" => Some(Choice::Paper),
                     "C" => Some(Choice::Scissors),
-                    _ => panic!("This should not be possible"),
+                    _ => None,
                 }?;
                 let b = match b {
                     "X" => Some(Choice::Rock),
                     "Y" => Some(Choice::Paper),
                     "Z" => Some(Choice::Scissors),
-                    _ => panic!("This should not be possible"),
+                    _ => None,
                 }?;
                 Some((a, b))
             })
