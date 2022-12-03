@@ -1,5 +1,5 @@
 [workspace]
-members = ["day1", "day2"]
+members = ["day1", "day2", "day3"]
 
 [workspace.dependencies]
 anyhow = "1.0.66"
