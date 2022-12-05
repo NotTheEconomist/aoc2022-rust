@@ -1,7 +1,8 @@
 [workspace]
-members = ["day1", "day2", "day3", "day4"]
+members = ["day1", "day2", "day3", "day4", "day5"]
 
 [workspace.dependencies]
 anyhow = "1.0.66"
 thiserror = "1.0.37"
 itertools = "0.10.5"
+nom = "7.1.1"
